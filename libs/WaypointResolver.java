@@ -7,9 +7,9 @@ import java.util.List;
  * and converts them into something useful for the robot.
  */
 public class WaypointResolver {
-	/**
-	 * Class representing a node of the occupancy grid as a graph.
-	 */
+    /**
+     * Class representing a node of the occupancy grid as a graph.
+     */
     public class Node extends AStarNode {
         private OccupancyGrid.GridCell cell;
         private ArrayList<AStarNode> neighbours;
